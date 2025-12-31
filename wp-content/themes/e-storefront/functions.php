@@ -197,10 +197,7 @@ if (!function_exists('e_storefront_after_setup_theme')) {
 function e_storefront_domain_setting() {
 
 require get_template_directory() .'/core/includes/theme-breadcrumb.php';
-require get_template_directory() . '/core/includes/importer/config.php';
 require get_template_directory() . '/core/includes/customizer.php';
-require get_template_directory() .'/core/includes/main.php';
-load_template( trailingslashit( get_template_directory() ) . '/core/includes/class-upgrade-pro.php' );
 
 }
 
